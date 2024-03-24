@@ -1,0 +1,147 @@
+body {
+    background-color: #2d2d30;
+    margin: 0;
+    padding: 0;
+    font-family: 'Prata', sans-serif;
+}
+
+.navbar {
+    background-color: #18181b;
+    color: #fff;
+    width: 180px;
+    height: 90vh;
+    border-radius: 10px;
+    padding: 20px;
+    position: fixed;
+    margin: 10px 10px;
+}
+
+.nav-links {
+    list-style: circle;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-bottom: 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.nav-links li a:hover {
+    color: #5f5f61;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin-left: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.section1 {
+    width: 830px;
+    /* background-image: url('cover7.jpeg'); */
+    background-color: #0b0b0b;
+    background-size: cover;
+    height: 120px;
+    background-position: center;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+    font-size: 3.4rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5%;
+}
+
+.section2,
+.section3 {
+    padding: 2%;
+    width: 850px;
+    background-color: #18181b;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    height: 250px;
+}
+
+.card-container {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 10px 0;
+    height: 400px;
+}
+
+.card {
+    list-style: none;
+    background-color: #2d2d30;
+    padding: 0%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 130px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.section2 p,
+.section3 p {
+    color: azure;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-card li p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.contact-card p {
+    font-size: 1rem;
+}
+
+.skill-card,
+.contact-card {
+    background-color: #2d2d30;
+    border-radius: 8px;
+    padding: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 170px;
+    margin-bottom: 0%;
+    justify-self: center;
+    margin-left: 20px;
+}
+
+.contact-card:hover p,
+.skill-card:hover p {
+    color: #5f5f61;
+}
+
+.contact-card li p {
+    margin-top: -10px;
+}
+
+.skill-card li img {
+    margin-top: -10px;
+}
+
+.skill-card img,
+.contact-card img {
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+    padding: 10px;
+}
